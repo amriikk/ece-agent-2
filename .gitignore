@@ -1,0 +1,12 @@
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Node / React Dependencies
+frontend/node_modules/
+frontend/build/
+.DS_Store
+
+# Environment Variables (for when you add your real Anthropic API Key)
+.env

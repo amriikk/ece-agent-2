@@ -1,7 +1,15 @@
 import pandas as pd
 from typing import TypedDict, List, Dict, Any, Optional
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
-from langchain_openai import ChatOpenAI # Assuming OpenAI, adjust if using another model
+from langchain_anthropic import ChatAnthropic
+import os
+
+# Initialize Claude 3.5 Sonnet
+llm = ChatAnthropic(
+    model_name="claude-3-5-sonnet-20240620", # or the latest sonnet version string
+    temperature=0,
+    max_tokens=4096
+)
 
 # Define the State Schema
 class AgentState(TypedDict):
@@ -13,7 +21,6 @@ class AgentState(TypedDict):
     visualization_figure: Optional[Dict[str, Any]] # Plotly JSON
     final_answer: str
 
-llm = ChatOpenAI(model="gpt-4o", temperature=0)
 
 def code_generation_node(state: AgentState) -> dict:
     """Translates natural language to Python/Pandas code."""

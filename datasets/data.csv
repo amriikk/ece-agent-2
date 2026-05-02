@@ -1,0 +1,16 @@
+Date,Student_ID,Major,Galaxies_Explored,Applications_Submitted,Session_Duration_Mins
+2026-04-01,S101,Computer Science,3,1,45.5
+2026-04-01,S102,Data Science,5,3,120.0
+2026-04-01,S103,Design,2,0,22.5
+2026-04-02,S101,Computer Science,4,2,60.0
+2026-04-02,S104,Engineering,1,0,15.0
+2026-04-02,S105,Design,6,4,145.5
+2026-04-03,S102,Data Science,3,1,55.0
+2026-04-03,S103,Design,4,1,80.0
+2026-04-03,S106,Computer Science,7,5,180.0
+2026-04-04,S101,Computer Science,2,0,30.0
+2026-04-04,S104,Engineering,3,2,65.5
+2026-04-05,S105,Design,5,2,90.0
+2026-04-05,S106,Computer Science,8,6,210.0
+2026-04-06,S102,Data Science,4,2,75.5
+2026-04-06,S107,Engineering,2,1,40.0
