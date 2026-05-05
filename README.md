@@ -6,7 +6,6 @@
 ---
 
 ## 1. Overview
-
 DATUM is a stateful, interactive data analysis agent built on top of a LangGraph state machine, a FastAPI backend, and a React frontend. Rather than treating each user question independently, the system maintains execution results across turns, enabling follow-up queries, chart re-renders, and filtered views of previous outputs — all without recomputing from the original dataset.
 
 The interaction loop is:
