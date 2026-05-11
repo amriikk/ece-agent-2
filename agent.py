@@ -45,7 +45,6 @@ def build_agent_graph():
     workflow.add_edge("classify", "generate_code")
     workflow.add_edge("generate_code", "execute")
 
-    # GAP 2 FIX — conditional retry router after execution
     def retry_router(state: AgentState) -> str:
         """
         Routes to:

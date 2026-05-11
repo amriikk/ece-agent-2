@@ -20,7 +20,7 @@ function PlotlyChart({ figure }) {
         margin: { l: 52, r: 16, t: 48, b: 56 },
         paper_bgcolor: 'rgba(0,0,0,0)',
         plot_bgcolor: 'rgba(0,0,0,0)',
-        font: { family: "'Special Elite', monospace", color: '#7eb8e8' },
+        font: { family: "'Special Elite', monospace", color: '#69a7da' },
         title: {
           ...figure.layout?.title,
           font: { family: "'Lora', serif", color: '#d4e6f5', size: 14 },
